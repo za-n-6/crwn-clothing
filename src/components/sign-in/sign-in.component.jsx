@@ -18,6 +18,7 @@ class SignIn extends React.Component {
         super(props);
 
         this.state ={
+
             email: '' ,
             password: ''
 
@@ -56,9 +57,6 @@ class SignIn extends React.Component {
                     required
 
                      />
-
-
-                   
 
                    <FormInput
 
