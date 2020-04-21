@@ -11,6 +11,7 @@ import "./checkout-item.styles.scss";
 
 const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
   const { name, imageUrl, price, quantity } = cartItem;
+  //We did this so that we can get whole CartItem that we want to completely remove.
 
   return (
     <div className="checkout-item">
